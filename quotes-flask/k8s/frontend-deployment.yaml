@@ -22,7 +22,7 @@ spec:
           name: quotes-flask-frontend
           ports:
             - containerPort: 5000
-          resources:
+          resasdasources:
             requests:
               cpu: 100m
               memory: 128Mi
