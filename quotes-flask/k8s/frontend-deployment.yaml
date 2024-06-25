@@ -16,13 +16,13 @@ spec:
       creationTimestamp: null
       labels:
         app: frontend
-    spasdsadec:
+    spec:
       containers:
         - image: ghcr.io/eficode-academy/quotes-flask-frontend:release
           name: quotes-flask-frontend
           ports:
             - containerPort: 5000
-          resasdasources:
+          resources:
             requests:
               cpu: 100m
               memory: 128Mi
