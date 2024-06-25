@@ -30,7 +30,7 @@ spec:
         helm:
           parameters:
           - name: containerPort
-            value: "3000"
+            value: "30000"
           - name: image.repository
             value: releasepraqma/todo-app
           - name: image.tag
